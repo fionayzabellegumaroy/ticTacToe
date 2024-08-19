@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    
+    <div class="container" id="mainContainer">
+        <h1 id="title">let's play, tic tac toe!</h1>
+        <!-- <div class="container" id="scoreContainer" style = "display: none;">
+            <p id="scoreX" style = "font-size: 20px;"></p>
+            <p id="duh" style = "font-size: 20px;">-</p>
+            <p id="scoreO"" style = "font-size: 20px;"></p>
+        </div> -->
+        <!-- <button class="button" id="restart">anothuh one</button> -->
+        <div class="container" id="playerOneInfo">
+        </div>
+        <div class="container" id="playerTwoInfo">
+        </div>
+        <div class="container" id="playerOneContainer">
+            <input class="input" id="playerOneInput" placeholder = "type player one name" required></input>
+            <button class="submit" id="playerOneNameSubmit">></button>            </div>
+        <div class="container" id="playerTwoContainer">
+            <input class="input" id="playerTwoInput" placeholder = "type player two name" required></input>
+            <button class="submit" id="playerTwoNameSubmit" >></button>
+        </div>
+        <button class="button" id="start">start</button>
+        <div class="win" id = "winButton" style = "display: none">you win!</div>
+        <div class="container" id = "boxContainer">
+            <div class="box" id="topLeft">?</div>
+            <div class="box" id="topMid">?</div>
+            <div class="box" id="topRight">?</div>
+            <div class="box" id="midLeft">?</div>
+            <div class="box" id="midMid">?</div>
+            <div class="box" id="midRight">?</div>
+            <div class="box" id="botLeft">?</div>
+            <div class="box" id="botMid">?</div>
+            <div class="box" id="botRight">?</div>
+        </div>
+    </div>
+
+    <script src = "script.js"></script>
+
+</body>
+
+</html>
+
